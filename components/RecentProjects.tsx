@@ -1,5 +1,5 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
-"use client"
 
 import { projects } from '@/data'
 import React, { useEffect, useState } from 'react'
@@ -20,21 +20,14 @@ const RecentProjects = () => {
     }
 
     return (
-        <div className='py-20' id='projects'>
+        <div className='py-20' id='projects'
+            >
             <h1 className='heading'>
                 A small selection of {''}
                 <span className='text-purple'>Recent projects</span>
             </h1>
-            <motion.div 
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.8,}}
-            variants={{
-                hidden: { opacity: 0, x: -50 },
-                visible: { opacity: 1, x: 0 }
-            }}
-            className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
+            <div
+                className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
                 {projects.map(({ id, title, des, img, iconLists, link }) => (
                     <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                         <PinContainer title={title} href={link}>
@@ -71,7 +64,7 @@ const RecentProjects = () => {
                         </PinContainer>
                     </div>
                 ))}
-            </motion.div>
+            </div>
         </div>
     )
 }
