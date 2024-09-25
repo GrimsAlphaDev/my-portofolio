@@ -12,7 +12,7 @@ export default withSentryConfig(nextConfig, {
     silent: !process.env.CI, // Only log in CI environments
     widenClientFileUpload: true, // Upload more detailed source maps
     reactComponentAnnotation: {
-        enabled: true, // Annotate React components in breadcrumbs
+        enabled: false, // Annotate React components in breadcrumbs
     },
     hideSourceMaps: true, // Hide source maps from the final build
     disableLogger: true, // Reduce bundle size by disabling Sentry logger
