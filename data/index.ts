@@ -49,7 +49,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Currently building a Next.js E-Commerce",
+        title: "Currently building Reseach and Development projects",
         description: "The Inside Scoop",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,137 +72,121 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        title: "EvoGym - Gym Profile Website",
+        des: "Unrivaled Gym. Unparalleled Training Experience. Unmatched Results. Get The Body You Want",
+        img: "/project/evogym.png",
+        iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+        link: "https://gym-vite-typescript.pages.dev/",
     },
     {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-        img: "/p2.svg",
+        title: "Polytama Propindo Distribution System",
+        des: "A distribution system for Polytama Propindo, a company that specializes in the distribution of chemicals.",
+        img: "/project/polytama.png",
         iconLists: [
-            "/next.svg",
-            "/tail.svg",
-            "/ts.svg",
-            "/stream.svg",
-            "/c.svg",
+            "/php.svg",
+            "/mysql.svg",
+            "/larav.svg",
+            "/bootstrap.svg",
         ],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        link: "https://github.com/GrimsAlphaDev/polytama-distribution-system",
     },
     {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-        img: "/p3.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        title: "Plane Ticket Booking System",
+        des: "A plane ticket booking system that allows users to book tickets for their desired destinations.",
+        img: "/project/ticket.png",
+        iconLists: [
+            "/java.svg",
+            "/mysql.svg",
+            "/netbeans.svg",
+        ],
+        link: "https://github.com/GrimsAlphaDev/pembayaran-tiket-pesawat",
     },
     {
         id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-        img: "/p4.svg",
+        title: "Cinebuy",
+        des: "A movie purchasing system that allows users to purchase movie online.",
+        img: "/project/cinebuy.png",
         iconLists: [
-            "/next.svg",
-            "/tail.svg",
-            "/ts.svg",
-            "/three.svg",
-            "/gsap.svg",
+            "/dart.svg",
+            "/flutter.svg",
         ],
-        link: "https://github.com/adrianhajdin/iphone",
+        link: "https://github.com/GrimsAlphaDev/mini_project_m_haikal_as_cinebuy",
     },
 ];
 
 export const testimonials = [
     {
-        quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        quote: "Congratulations! You have successfully developed two of our websites, and we couldn't be happier with the results. We hope you continue to thrive and apply the knowledge you've gained wherever you go. Your skills are truly invaluable!.",
+        name: "Taharudin S.E",
+        title: "Management Information System Superintendent",
     },
     {
-        quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        quote: "Thank you so much! I am incredibly satisfied with your work. Your dedication and effort truly shine through, and I appreciate everything you’ve done.",
+        name: "Septian",
+        title: "Sekolah Tinggi Teknologi Bandung Undergraduate",
     },
     {
-        quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        quote: "I never expected that collaborating with you would provide me with such valuable new experiences. The results have exceeded my expectations, and I am truly impressed!",
+        name: "Rifqy Kurnia",
+        title: "Padjadjaran University Undergraduate",
     },
 ];
 
 export const companies = [
     {
         id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
+        name: "Catur Insan Cendekia University",
+        img: "/ucic.png",
+        nameImg: "Catur Insan Cendekia University",
     },
     {
         id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
+        name: "Polytama",
+        img: "/polytama.png",
+        nameImg: "PT Polytama Propindo",
     },
     {
         id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
+        name: "nds",
+        img: "/nds.png",
+        nameImg: "PT Nusha Digital Solution",
     },
     {
         id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "docker.",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
+        name: "Sucofindo",
+        img: "/sucofindo.png",
+        nameImg: "PT Sucofindo",
     },
 ];
 
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Application Developer Intern - PT Polytama Propindo",
+        desc: "Developed and maintained PT Polytama Distribution System using Laravel and PostgreSQL.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+        title: "Front End Developer - PT Nusha Digital Solution",
+        desc: "Developed and maintained user-facing features using modern frontend technologies.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        title: "IT Officer Intern - PT Sucofindo",
+        desc: "Developed and Data Entry for PT Sucofindo Lab System using Laravel",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        title: "Fullstack Multiplatform Developer Freelance",
+        desc: "Freelance Fullstack Developer for various clients, developing websites and mobile applications.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },
@@ -212,13 +196,11 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
+        link: "https://github.com/GrimsAlphaDev"
     },
     {
         id: 2,
-        img: "/twit.svg",
-    },
-    {
-        id: 3,
         img: "/link.svg",
+        link: "https://www.linkedin.com/in/haikal-alfandi-61836922a/"
     },
 ];
