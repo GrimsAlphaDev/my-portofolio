@@ -72,6 +72,38 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "SIPPmas",
+        des: "Sistem Informasi Penelitian dan Pengabdian Masyarkat (SIPPMas) Universitas Catur Insan Cendekia",
+        img: "/project/sippmas.png",
+        iconLists: ["/php.svg", "/mysql.svg", "/larav.svg", "/bootstrap.svg"],
+        link: "https://sippmas.cic.ac.id",
+    },
+    {
+        id: 2,
+        title: "Mealmate",
+        des: "MealMate is a one-stop solution for all your catering needs. From ordering food to managing your office pantry, we have got you covered. Experience a seamless dining experience with MealMate",
+        img: "/project/mealmate.png",
+        iconLists: ["/php.svg", "/mysql.svg", "/larav.svg", "/tail.svg"],
+        link: "https://github.com/GrimsAlphaDev/code-test-haikal",
+    },
+    {
+        id: 3,
+        title: "Metamorfosa",
+        des: "Metamorfosa Community Learning berkomitmen untuk menciptakan lingkungan belajar kolaboratif yang mengakomodasi setiap individu mengembangkan potensinya dengan cara yang unik.",
+        img: "/project/metamor.png",
+        iconLists: ["/php.svg", "/mysql.svg", "/larav.svg", "/bootstrap.svg"],
+        link: "https://github.com/thisismelexaaa/metamorfosa",
+    },
+    {
+        id: 4,
+        title: "SIG",
+        des: "Sistem Informasi Geografis (SIG) adalah sistem informasi yang mengelola data geografis dan non-geografis yang berhubungan dengan suatu wilayah tertentu.",
+        img: "/project/sig.png",
+        iconLists: ["/php.svg", "/mysql.svg", "/larav.svg", "/bootstrap.svg"],
+        link: "https://github.com/GrimsAlphaDev/sig",
+    },
+    {
+        id: 5,
         title: "EvoGym - Gym Profile Website",
         des: "Unrivaled Gym. Unparalleled Training Experience. Unmatched Results. Get The Body You Want",
         img: "/project/evogym.png",
@@ -79,39 +111,27 @@ export const projects = [
         link: "https://gym-vite-typescript.pages.dev/",
     },
     {
-        id: 2,
+        id: 6,
         title: "Polytama Propindo Distribution System",
         des: "A distribution system for Polytama Propindo, a company that specializes in the distribution of chemicals.",
         img: "/project/polytama.png",
-        iconLists: [
-            "/php.svg",
-            "/mysql.svg",
-            "/larav.svg",
-            "/bootstrap.svg",
-        ],
+        iconLists: ["/php.svg", "/mysql.svg", "/larav.svg", "/bootstrap.svg"],
         link: "https://github.com/GrimsAlphaDev/polytama-distribution-system",
     },
     {
-        id: 3,
+        id: 7,
         title: "Plane Ticket Booking System",
         des: "A plane ticket booking system that allows users to book tickets for their desired destinations.",
         img: "/project/ticket.png",
-        iconLists: [
-            "/java.svg",
-            "/mysql.svg",
-            "/netbeans.svg",
-        ],
+        iconLists: ["/java.svg", "/mysql.svg", "/netbeans.svg"],
         link: "https://github.com/GrimsAlphaDev/pembayaran-tiket-pesawat",
     },
     {
-        id: 4,
+        id: 8,
         title: "Cinebuy",
         des: "A movie purchasing system that allows users to purchase movie online.",
         img: "/project/cinebuy.png",
-        iconLists: [
-            "/dart.svg",
-            "/flutter.svg",
-        ],
+        iconLists: ["/dart.svg", "/flutter.svg"],
         link: "https://github.com/GrimsAlphaDev/mini_project_m_haikal_as_cinebuy",
     },
 ];
@@ -196,11 +216,11 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
-        link: "https://github.com/GrimsAlphaDev"
+        link: "https://github.com/GrimsAlphaDev",
     },
     {
         id: 2,
         img: "/link.svg",
-        link: "https://www.linkedin.com/in/haikal-alfandi-61836922a/"
+        link: "https://www.linkedin.com/in/haikal-alfandi-61836922a/",
     },
 ];
